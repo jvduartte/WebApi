@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using WebApi_C_.Model;
 using WebApi_C_.ORM;
 using WebApi_C_.Repositorio;
@@ -9,6 +10,7 @@ namespace WebApi_C_.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ProdutoController : ControllerBase
     {
         private readonly ProdutoRepositorio _produtoRepo;

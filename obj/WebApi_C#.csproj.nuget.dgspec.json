@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno Noite\\Documents\\WebApi_Vitor\\WebApi_C#.csproj": {}
+    "C:\\Users\\Aluno Noite\\Desktop\\WebApiVitor\\WebApi_C#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno Noite\\Documents\\WebApi_Vitor\\WebApi_C#.csproj": {
+    "C:\\Users\\Aluno Noite\\Desktop\\WebApiVitor\\WebApi_C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno Noite\\Documents\\WebApi_Vitor\\WebApi_C#.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno Noite\\Desktop\\WebApiVitor\\WebApi_C#.csproj",
         "projectName": "WebApi_C#",
-        "projectPath": "C:\\Users\\Aluno Noite\\Documents\\WebApi_Vitor\\WebApi_C#.csproj",
+        "projectPath": "C:\\Users\\Aluno Noite\\Desktop\\WebApiVitor\\WebApi_C#.csproj",
         "packagesPath": "C:\\Users\\Aluno Noite\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno Noite\\Documents\\WebApi_Vitor\\obj\\",
+        "outputPath": "C:\\Users\\Aluno Noite\\Desktop\\WebApiVitor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Aluno Noite\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,29 +46,37 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[8.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.8.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.1.2, )"
             }
           },
           "imports": [
